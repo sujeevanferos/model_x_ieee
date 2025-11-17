@@ -1,7 +1,7 @@
 import pandas as pd
 
-path_in  = r"C:\Users\ASUS\Documents\ModelX\Dementia Prediction Dataset_filtered .csv"
-path_out = r"C:\Users\ASUS\Documents\ModelX\Dementia Prediction Dataset_filtered.csv"
+path_in  = r"Dementia Prediction Dataset.csv"
+path_out = r"Dementia Prediction Dataset_filtered.csv"
 
 columns_to_keep = [
     "NACCID","NACCADC","PACKET","FORMVER","VISITMO","VISITDAY","VISITYR","NACCVNUM","NACCAVST","NACCNVST",

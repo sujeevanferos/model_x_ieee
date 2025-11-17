@@ -14,7 +14,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-csv_path = r"C:\Users\ASUS\Documents\ModelX\Dementia_Prediction_Data_Preprocessed.csv"
+csv_path = r"Dementia_Prediction_Data_Preprocessed.csv"
 df = pd.read_csv(csv_path)
 
 

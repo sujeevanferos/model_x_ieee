@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r"C:\Users\ASUS\Documents\ModelX\Dementia Prediction Dataset_filtered.csv")
+df = pd.read_csv(r"Dementia Prediction Dataset_filtered.csv")
 
 # Apply replacements
 df.replace(-4, np.nan, inplace=True)
@@ -75,6 +75,6 @@ columns_to_drop = [
 
 df.drop(columns=columns_to_drop, inplace=True, errors='ignore')
 
-df.to_csv(r"C:\Users\ASUS\Documents\ModelX\Dementia Prediction Dataset_filtered.csv", index=False)
+df.to_csv(r"Dementia Prediction Dataset_Preprocessed.csv", index=False)
 
 print("Preprocessing complete. Cleaned dataset saved.")
